@@ -13,10 +13,6 @@ namespace Asm
     internal class Program
     {
 
-        //using https://webstersprodigy.net/2012/08/31/av-evading-meterpreter-shell-from-a-net-service/ 
-        // and using https://raw.githubusercontent.com/vysec/FSharp-Shellcode/master/FSharp-Shellcode.fs as base
-        // and using https://stackoverflow.com/questions/1361965/compile-simple-string 
-        // shellcode test from https://www.exploit-db.com/exploits/28996/ for msgbox popup
         static void Main(string[] args)
         {
             string code = @"
